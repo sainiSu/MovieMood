@@ -2,9 +2,12 @@ import { useState } from "react";
 import Header from "./components/Header";
 import MoodSelector from "./components/MovieSelector";
 
+
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 const App = () => {
+
+
   const [movies, setMovies] = useState([]); // State to store movies
 
   // Function to fetch movies based on the selected mood
