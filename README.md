@@ -13,6 +13,8 @@ This React + Tailwind CSS project fetches movie recommendations from **TMDb API*
 
 ## 📁 Project Structure
 
+
+<pre><code>
 movieMood/
 ├── node_modules/
 ├── public/
@@ -34,6 +36,8 @@ movieMood/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
+
+</code></pre>
 
 
 ## 🛠️ Installation
