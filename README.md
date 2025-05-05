@@ -13,31 +13,30 @@ This React + Tailwind CSS project fetches movie recommendations from **TMDb API*
 
 ## 🧱 Project Structure
 
-movie-mood-matcher/
-├── public/                     # Static files (e.g. icons, images, favicons)
-│  
+movieMood/
+├── node_modules/
+├── public/
 │   └── vite.svg
-
-├── src/                        # All source code
-│   ├── assets/                 # Custom images, icons, etc.
+├── src/
+│   ├── assets/
 │   │   └── react.svg
-
-│   ├── components/             # Reusable React components
+│   ├── components/
 │   │   ├── Header.jsx
 │   │   └── MovieSelector.jsx
-
-│   ├── App.jsx                 # Main app component
-│   ├── index.css               # Tailwind + custom styles
-│   ├── main.jsx                # Entry point (ReactDOM.render)
-│
-├── .env                        # Environment variables (e.g. API keys)
-├── .gitignore                  # Files to ignore in Git
-├── index.html                 # Main HTML template
-├── package.json                # Project metadata and dependencies
-├── tailwind.config.js          # Tailwind configuration
-├── vite.config.js              # Vite configuration
-├── README.md                   # Project documentation
-└── package-lock.json           # Lockfile for npm dependencies
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── M(8.2)Ejercicio-5.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+          # Lockfile for npm dependencies
 
 
 ## 🛠️ Installation
@@ -48,8 +47,8 @@ movie-mood-matcher/
    cd movieMood
 
 
-VITE_TMDB_API_KEY=your_tmdb_api_key_here
-
+## live demo: 
+https://movie-mood-omega.vercel.app/
 
 
 ## To run
