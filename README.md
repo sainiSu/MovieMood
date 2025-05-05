@@ -11,32 +11,29 @@ This React + Tailwind CSS project fetches movie recommendations from **TMDb API*
 - 📱 Fully responsive layout using Tailwind CSS.
 - 🌐 Integrates with TMDb for real-time movie data.
 
-## 🧱 Project Structure
+## 📁 Project Structure
 
 movieMood/
 ├── node_modules/
 ├── public/
-│   └── vite.svg
+│ └── vite.svg
 ├── src/
-│   ├── assets/
-│   │   └── react.svg
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   └── MovieSelector.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
+│ ├── assets/
+│ │ └── react.svg
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ └── MovieSelector.jsx
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
 ├── .env
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
-├── M(8.2)Ejercicio-5.html
 ├── package.json
-├── package-lock.json
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
-          # Lockfile for npm dependencies
 
 
 ## 🛠️ Installation
